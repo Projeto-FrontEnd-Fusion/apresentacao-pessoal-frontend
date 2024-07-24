@@ -1,15 +1,16 @@
-
+/* eslint-disable no-unused-vars */
+import Header from './components/Header';
+import About from './components/About';
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <main>
-        <h1>Seja bem vindo! :)</h1>
-        <p>Desafio de apresentação Pessoal do Projeto Frontend fusion</p>
-      </main>
-    </>
+    <div className="App max-w-4xl mx-auto">
+      <Header />
+      <About />
+
+    </div>
   );
 }
 
