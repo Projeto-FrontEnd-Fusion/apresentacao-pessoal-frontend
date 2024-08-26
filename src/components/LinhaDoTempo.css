@@ -1,0 +1,53 @@
+.linhaDoTempo{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    /* border: 2px solid white; */
+}
+
+.linhaDoTempo h2{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+.linhaDoTempo .container{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    /* border: 2px solid wheat; */
+    gap: 50px;
+}
+
+.linhaDoTempo .container .card{
+    background: transparent;
+    width: 220px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.linhaDoTempo .linha{
+    width: 220px;
+    height: 5px;
+    background: gray;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+.linhaDoTempo .container .card p{
+    text-align: justify;
+}
+
+@media (max-width: 991px){
+    .linhaDoTempo .container .card{
+        width: 280px;
+    }
+
+    .linhaDoTempo .linha{
+        width: 280px;
+    }
+}

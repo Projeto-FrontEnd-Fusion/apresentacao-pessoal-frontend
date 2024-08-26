@@ -1,0 +1,128 @@
+.header{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 20px;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(180deg, #1f7fa8, rgb(3, 16, 22, 0.9));
+    z-index: 999;
+
+}
+
+.dropdown{
+    display: none;
+}
+
+.header .links{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+ 
+}
+
+.header .links .link{
+    text-decoration: none;
+    font-size: 18px !important;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
+    transition: .5s;
+}
+
+.header .links .link:hover{
+    border-bottom: 3px solid  rgba(132, 53, 222, 1);
+    color: rgba(132, 53, 222, 1)    
+}
+
+.header .menu_burger{
+    width: 30px;
+    display: none;
+}
+
+.header .redes{
+    display: flex;
+    gap: 30px;   
+}
+
+
+
+.header .linkedin, .github, .whats{
+    background-color: white;
+    color: white;
+    width: 30px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.header .linkedin:hover, .github:hover, .whats:hover{
+    transform: translateY(-7px);
+}
+
+.header .linkedin:hover{
+    background-color:#0a66c2;
+}
+
+.header .whats:hover{
+    background-color: #0cc143;
+}
+
+@media(max-width: 891px){
+   
+   .header .links{
+    flex-flow: column;
+   }
+
+   .links{
+    display: none !important;
+   }
+
+   .header .menu_burger{
+    display: block;
+    cursor: pointer;
+}
+
+.dropdown{
+    display: block;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.dropdown-menu{
+    background: linear-gradient(180deg, #1f7fa8, rgb(3, 16, 22))!important;  
+    box-shadow: 10px 10px 30px  gray; 
+    padding: 20px !important;
+   width: 300px !important;
+    margin-left: -30px !important;
+    margin-top: 20px !important;
+}
+
+.dropdown-menu .link{
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    margin-bottom: 15px;
+    padding: 20px !important;
+    transition: .5s !important;
+    border-bottom: 3px solid transparent;
+}
+
+.dropdown-item{
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    margin-bottom: 15px;
+    padding: 20px !important;
+    transition: .5s !important;
+    border-bottom: 3px solid transparent;
+}
+
+.dropdown-item:hover{
+    background-color: black !important;
+
+}
+
+ 
+}

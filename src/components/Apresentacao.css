@@ -1,0 +1,48 @@
+.apresentacao{
+    width: 100%;
+    /* border: 2px solid red; */
+    padding-top: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    padding-inline: 80px;
+    position: relative;
+}
+
+.apresentacao .container{   
+    /* border: 2px solid blue; */
+    width: 100%;  
+}
+
+.apresentacao h2{
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.apresentacao p{
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 50px;
+    
+}
+
+span{
+    color: rgba(184, 84, 232, 1);
+    font-size: 2rem;  
+}
+
+
+
+@media (max-width: 672px){
+    .apresentacao{  
+        padding-inline: 10px;
+    }
+
+    .apresentacao h2{
+        font-size: 2rem;   
+    }
+}
+
+
+
