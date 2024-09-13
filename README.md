@@ -4,6 +4,11 @@
 
 Bem-vindo ao desafio de apresentação pessoal do processo seletivo do projeto Frontend Fusion para a vaga de Desenvolvedor React Júnior. Este desafio foi criado para avaliar suas habilidades em desenvolvimento com React e sua capacidade de criar uma página de apresentação pessoal.
 
+> OBS : Você receberá um e-mail com a data de início dos desafios, mas eles já estão disponíveis para acesso imediato. 
+Se ainda não preencheu o formulário, por favor, acesse o link para completá-lo.
+[Forms de inscrição](https://forms.gle/EJKDNKdmVZM3zQTr7)
+é importante está inscrito no formulário , pois o seu email precisa ser validado
+
 ## Objetivo
 
 Crie uma página de apresentação pessoal utilizando React com Vite. Esta página deve incluir:
