@@ -1,24 +1,27 @@
-// src/context/AppContext.js
-import { createContext, useState } from 'react';
+import React, { createContext, useReducer } from 'react';
 
 export const AppContext = createContext();
 
-export function AppProvider({ children }) {
-    const [state, setState] = useState({
-        theme: 'light',  // Pode ser 'light' ou 'dark'
-    });
+const initialState = {
+    theme: 'light', 
+};
 
-    const toggleTheme = () => {
-        setState(prevState => ({
-            ...prevState,
-            theme: prevState.theme === 'light' ? 'dark' : 'light',
-        }));
-    };
+const reducer = (state, action) => {
+    switch (action.type) {
+        case 'TOGGLE_THEME':
+            return { ...state, theme: state.theme === 'light' ? 'dark' : 'light' };
+        default:
+            return state;
+    }
+};
 
+export const AppProvider = ({ children }) => {
+    const [state, dispatch] = useReducer(reducer, initialState);
     return (
-        <AppContext.Provider value={{ state, toggleTheme }}>
+        <AppContext.Provider value={{ state, dispatch }}>
             {children}
         </AppContext.Provider>
     );
-}
+};
+
 
