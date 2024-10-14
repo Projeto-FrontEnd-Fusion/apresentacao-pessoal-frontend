@@ -7,7 +7,7 @@ function Projetos() {
         {
             id: 1,
             title: 'Projeto 1',
-            imageUrl: './public/PP.png', // Substitua pelo caminho da imagem
+            imageUrl: '/PP.png', // Substitua pelo caminho da imagem
             repoUrl: 'https://lnkd.in/dXw8N8Ki', // Substitua pelo link do repositório
             liveUrl: 'https://seu-site.com/projeto1', // Substitua pelo link da página web
             technologies: ['React', 'Tailwind CSS', 'Vite'],
@@ -15,7 +15,7 @@ function Projetos() {
         {
             id: 2,
             title: 'Relógio Digital Dinâmico',
-            imageUrl: './public/relogio.png', // Substitua pelo caminho da imagem
+            imageUrl: '/relogio.png', // Substitua pelo caminho da imagem
             repoUrl: 'https://github.com/seu-usuario/projeto2', // Substitua pelo link do repositório
             liveUrl: 'https://lnkd.in/dqjzw5Zv', // Substitua pelo link da página web
             technologies: ['JavaScript', 'HTML', 'CSS'],
