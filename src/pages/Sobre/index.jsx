@@ -9,7 +9,7 @@ function Sobre() {
             <div className="container mx-auto p-6 flex flex-col items-center">
                 <h1 className="text-4xl font-bold mb-4">Sobre Mim</h1>
                 <img
-                    src="./public/fotoPerfil.jpeg"
+                    src="/fotoPerfil.jpeg"
                     alt="Minha Foto"
                     className="w-48 h-48 rounded-full border-4 border-gray-300 shadow-lg transform transition duration-500 hover:scale-110"
                 />
@@ -21,7 +21,7 @@ function Sobre() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                     <div className="flex flex-col items-center">
                         <img
-                            src="./public/icons8-reagir.svg" 
+                            src="/icons8-reagir.svg" 
                             alt="React"
                             className="w-16 h-16 transform transition duration-500 hover:scale-110"
                         />
@@ -29,7 +29,7 @@ function Sobre() {
                     </div>
                     <div className="flex flex-col items-center">
                         <img
-                            src="./public/tailwind-css.svg" 
+                            src="/tailwind-css.svg" 
                             alt="Tailwind CSS"
                             className="w-16 h-16 transform transition duration-500 hover:scale-110"
                         />
@@ -37,7 +37,7 @@ function Sobre() {
                     </div>
                     <div className="flex flex-col items-center">
                         <img
-                            src="./public/vite.svg" 
+                            src="/vite.svg" 
                             alt="Vite"
                             className="w-16 h-16 transform transition duration-500 hover:scale-110"
                         />
@@ -45,13 +45,12 @@ function Sobre() {
                     </div>
                     <div className="flex flex-col items-center">
                         <img
-                            src="./public/icons8-javascript.svg"
+                            src="/icons8-javascript.svg"
                             alt="JavaScript"
                             className="w-16 h-16 transform transition duration-500 hover:scale-110"
                         />
                         <span className="mt-2 text-center">JavaScript</span>
                     </div>
-                    {/* Adicione mais habilidades conforme necessário */}
                 </div>
             </div>
             <Footer />
