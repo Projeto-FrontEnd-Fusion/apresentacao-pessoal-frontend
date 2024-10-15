@@ -2,7 +2,8 @@ import "../Skills/Skills.css";
 
 function Skills() {
   return (
-    <div className="skills">
+    <div id="skills">
+        <div className="skills">
       <div className="page-section bg-primary text-white mb-0" id="about">
         <div className="container">
           <h2 className="page-section-heading text-center text-uppercase text-white">
@@ -12,9 +13,9 @@ function Skills() {
             <div className="divider-custom-line"></div>
             <div className="divider-custom-icon">
               <i className="fas fa-star"></i>
-            </div><br /><br />
+            </div><br /><br /><br />
             <div className="divider-custom-line"></div>
-          </div><br />
+          </div><br /><br />
           <div className="row">
             <div className="col-lg-4 ms-auto">
               <p className="lead">
@@ -41,6 +42,7 @@ function Skills() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

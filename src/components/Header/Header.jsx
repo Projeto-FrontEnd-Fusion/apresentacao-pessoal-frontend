@@ -19,7 +19,7 @@ function Header() {
               </a>
             </li>
             <li className="col-md-4">
-              <a className="menu_1" href="#contact">
+              <a className="menu_1" href="#contato">
                 Contato
               </a>
             </li>
