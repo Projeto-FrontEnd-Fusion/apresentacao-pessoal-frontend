@@ -1,0 +1,55 @@
+.tecnologias{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    /* border: 2px solid red; */
+}
+
+.tecnologias h2{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+.tecnologias .container{
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-image: url('/background.jpeg');
+    background-size: cover;
+    padding: 80px 50px;
+    border-radius: 18px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.tecnologias .container .card{
+    width: 100px;
+    background: transparent;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.tecnologias .container .card img{
+    width: 100%;
+    height: 90px; 
+    transition: .5s;  
+}
+
+.tecnologias .container .card img:hover{
+    transform: translateY(-15px);   
+}
+
+.html{
+    background-color: #fc490b;
+}
+
+.tecnologias .container .card p{
+    font-weight: bold;
+}
+

@@ -1,0 +1,65 @@
+[
+    {
+        "capa":"/projeto_react_livros.png",
+        "titulo":"React Livros",
+        "descricao": "Projeto com as funcionalidades de capturar as informações digitadas nos inputs para criar cards para livros, excluir cards e alterar a cor dos componentes.",
+        "tecnologias":"HTML, CSS, JavaScript e React.",
+        "link": "https://reactlivros.vercel.app/"
+    },
+    {
+        "capa":"/projeto_reactdnc.png",
+        "titulo":"React Imóveis",
+        "descricao": "Projeto com escolha de idioma, formulário com validações e localstorage",
+        "tecnologias":"HTML, CSS, JavaScript e React.",
+        "link": "https://reactdnc.vercel.app/"
+    },
+    {
+    "capa":"/projeto_organopets.png",
+    "titulo":"Organo Pets",
+    "descricao": "Projeto que cria cards bonitinhos com as fotos dos seus pets, tem a funcionalidade de excluir card e alterar a cor.",
+    "tecnologias":"HTML, CSS, JavaScript e React.",
+    "link": "https://organopet.vercel.app/"
+},
+{
+    "capa":"/projeto_bookhub.png",
+    "titulo":"Book Hub",
+    "descricao": "Projeto que exibe os livros de acordo com o que o usuário digitar, tem a funcionalidade de favoritar o livro escolhido.",
+    "tecnologias":"HTML, CSS, JavaScript e React.",
+    "link": "https://bookhub-zeta.vercel.app/"
+},
+{
+    "capa":"/projeto_bartenders.png",
+    "titulo":"Bartenders",
+    "descricao": "Página web interativa, mostra detalhes dos produtos ao passar o mouse por cima e permite conexão entre pessoas.",
+    "tecnologias":"HTML, CSS e JavaScript.",
+    "link": "https://bartenders-eta.vercel.app/"
+},
+{
+    "capa":"/projeto_instituto_capoeira.png",
+    "titulo":"Instituto Capoeira Social",
+    "descricao": "Projeto Desenvolvido como voluntária para Organização sem fins lucrativos. Exibe os serviços sociais fornecidos e página de doações.",
+    "tecnologias":"HTML, CSS e JavaScript.",
+    "link": "https://gerando-falcoes.vercel.app/"
+},
+{
+    "capa":"/projeto_consultora_imobiliaria.png",
+    "titulo":"Consultora Imobiliária",
+    "descricao": "Projeto desenvolvido como freelancer para profissional imobiliária autônoma. Possui formulário onde os dados preenchidos pelo usuário são capturados diretamente para o e-mail.",
+    "tecnologias":"HTML, CSS e JavaScript.",
+    "link": "https://cristianecorretora.vercel.app/"
+},
+{
+    "capa":"/projeto_hulu.png",
+    "titulo":"Streaming",
+    "descricao": "Repliquei um projetinho para focar no conhecimento de HTML e CSS, site modelo: hulu.com.",
+    "tecnologias":"HTML, CSS e JavaScript.",
+    "link": "https://hulu-teal.vercel.app/"
+},
+{
+    "capa":"/projeto_mercado.png",
+    "titulo":"E-Commerce",
+    "descricao": "Projeto desenvolvido durante o curso Programador Web Completo.",
+    "tecnologias":"HTML, CSS, JavaScript e Bootstrap.",
+    "link": "https://mercadoecommerce.vercel.app/"
+}
+]
